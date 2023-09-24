@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/static/css/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-Ff538M2lO5cH2y5tF5UnxFa6b/l5dzP5Lq8w5Bt8r6LZL2O5Nz9yw5e6Jw5p3n5Dm" crossorigin="anonymous">
+
     <title>Document</title>
   </head>
   <body>
@@ -18,6 +20,38 @@
       <div class="alert-content alert-warning-content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </div>
+    </div >
+    <!-- without Vue -->
+    <div class="m-5 shadow-md w-80 rounded overflow-hidden">
+      <img
+        src="https://source.unsplash.com/x00CzBt4Dfk/1600x900"
+        alt="Pizza Margherita image"
+      />
+      <div class="p-2">
+        <div class="font-bold text-lg text-gray-700 leading-snug">
+          <a href="#" class="hover:underline">Pizza Marguerita</a>
+        </div>
+          <p class="text-xs leading-tight tracking-wide my-2">
+            Invented in Naples in honor of the first queen of Italy, the
+            Margherita pizza is the triumph of Italian cuisine in the world.
+          </p>
+          <div class="flex pt-2 border-t border-gray-300 text-sm text-gray-700 divide-x-2">
+            <div class="flex-1 text-center">
+              <i class="fa-regular fa-clock"></i>
+              <p>1h 15m</p>
+            </div>
+            <div class="flex-1 text-center">
+              <i class="fas fa-utensils"></i>
+              <p>4 Servings</p>
+            </div>
+            <div class="flex-1 text-center">
+              <i></i>
+              <p>Easy</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <script src="https://unpkg.com/vue@3"></script>
   </body>
 </html>
