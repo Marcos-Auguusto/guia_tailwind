@@ -1,6 +1,6 @@
-{
+{ 
   "scripts": {
-    "main_content":  "tailwindcss -i main_content/tw/tailwind-input.css -o main_content/css/output.css --watch"
+    "copile": "npx tailwindcss -i static/tw/tailwind-input.css -o static/css/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
