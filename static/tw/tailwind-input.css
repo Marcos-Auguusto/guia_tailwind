@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* components classes */
 @layer components {
     .alert {
         @apply flex flex-col p-4 pt-2 w-full border-l-8;
